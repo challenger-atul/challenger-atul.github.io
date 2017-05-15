@@ -3,6 +3,7 @@
 <html>
 
  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="external.css"/>
 	
     <title></title>
@@ -10,126 +11,114 @@
  
     <style>
 	  body {background-color:#B6B6B6;
-	        }
-			
+	  }
+	        
+		.style {padding:20px;
+		        font-family:"Freestyle Script";
+				font-size:35px;
+				text-align:center;
+				border-radius:15px;
+				}
+				
+      span  {font-family:"Elephant";
+	         font-size:20px;
+			 background-color:white;
+			 padding-left:40px;
+			 padding-right:40px;
+			 padding-top:5px;
+			 padding-bottom:5px;}
+			 
+    #football {position:absolute;
+               width:40%;
+			   top:20%;
+			   left:5%;
+			   background-image:url(fb.jpg);
+			   background-size:100% 100%;
+			   
+			   }
+
+	#cs       {position:absolute;
+               width:40%;
+               top:50%;
+			   left:55%;
+			   background-image:url(cs.jpg);
+			   background-size:100% 100%;
+			   }
+		
+    #fitness  {position:absolute;
+               width:40%;
+			   top:120%;
+			   left:5%;
+			   background-image:url(michael.jpg);
+			   background-size:100% 100%;
+			   }
+			   
+	#web      {position:absolute;
+               width:40%;
+			   top:135%;
+			   left:55%;
+			   background-image:url(web.jpg);
+			   background-size:100% 100%;
+			   }
+
+	#rubic     {position:absolute;
+               width:40%;
+			   top:200%;
+			   left:5%;
+			   background-image:url(rubic.jpg);
+			   background-size:100% 100%;
+			   }		   
+        
+
+         @media screen and (max-width:760px){
+		
+		.style {padding:2px;
+		        font-family:"Freestyle Script";
+				font-size:30px;
+				}
+		
+		
 		
 		#football {position:absolute;
-		           top:120px;
-                   left:20px;		
-		           font-family:"Freestyle Script";
-				   font-size:40px;
-				   background-image:url(fb.jpg);
-				   background-size:600px 400px;
-				   padding:10px;
-				   box-shadow:0px 90px white;
-				   text-align:center;
-				   border-radius:5px;
-		          }
-				  
-		#tag1      {position:absolute;
-                   top:490px;
-                   left:215px;
-                   font-family:"Elephant";
-				   font-size:30px;
-                  }	
+                   width:100%;
+			       top:15%;
+				   left:0%
+				 }
 
-		#cs       {position:absolute;
-		           top:160px;
-                   left:700px;		
-		           font-family:"Freestyle Script";
-				   font-size:40px;
-				   background-image:url(cs.jpg);
-				   background-size:570px 415px;
-				   padding:10px;
-				   box-shadow:0px 90px white;
-				   text-align:center;
-				   border-radius:5px;}	
-   
-        #tag2      {position:absolute;
-                   top:580px;
-                   left:820px;
-                   font-family:"Elephant";
-				   font-size:30px;
-                  }	
+	#cs       {position:absolute;
+               width:100%;
+               top:60%;
+			   left:0%;
+			   
+		      }
+			  
+	#fitness  {position:absolute;
+               width:100%;
+               top:110%;
+			   left:0%;}	
 
-        #fitness   {position:absolute;
-		           top:600px;
-                   left:20px;		
-		           font-family:"Freestyle Script";
-				   font-size:40px;
-				   background-image:url(michael.jpg);
-				   background-size:570px 425px;
-				   padding:10px;
-				   box-shadow:0px 90px white;
-				   text-align:center;
-				   border-radius:5px;}	
+	#web      {position:absolute;
+               width:100%;
+               top:160%;
+			   left:0%;}
 
-		#tag3     {position:absolute;
-                   top:1010px;
-                   left:150px;
-                   font-family:"Elephant";
-				   font-size:30px;
-                  }	
-				  
-		#web      {position:absolute;
-		           top:730px;
-                   left:700px;		
-		           font-family:"Freestyle Script";
-				   font-size:40px;
-				   background-image:url(web.jpg);
-				   background-size:570px 425px;
-				   padding:10px;
-				   box-shadow:0px 90px white;
-				   text-align:center;
-				   border-radius:5px;}
-
-        #tag4      {position:absolute;
-                   top:1140px;
-                   left:800px;
-                   font-family:"Elephant";
-				   font-size:30px;
-                  }					   
-
-        #rubic   {position:absolute;
-		           top:1150px;
-                   left:20px;		
-		           font-family:"Freestyle Script";
-				   font-size:40px;
-				   background-image:url(rubic.jpg);
-				   background-size:550px 450px;
-				   padding:5px;
-				   box-shadow:0px 90px white;
-				   text-align:center;
-				   border-radius:5px;}
-
-		#tag5      {position:absolute;
-                   top:1590px;
-                   left:200px;
-                   font-family:"Elephant";
-				   font-size:30px;
-                  }			   
+	#rubic    {position:absolute;
+               width:100%;
+               top:210%;
+			   left:0%;}		   
+}			  	  
 	</style>
  
  </head>
  
  <body>
 	 
-	 <div id="football"><p>I started playing FOOTBALL in my 9<sup>th</sup> standard <br/>Within no time I realized that I started loving it <br/>Even my identity among my batchmates was<br/> more because of FOOTBALL than anything else....<br/>"FOOTBALL is my passion,RONALDO is my motivation"</p></div>
-	 <div id="tag1">FOOTBALL</div>
-	 
-	 <div id="cs"><p>Frankly speaking,COUNTER STRIKE is my drug.<br/>I am playing this game<br/> when i was in 7<sup>th</sup> standard<br/> and i still play it whenever <br/>i feel something is destracting me,<br/>to refocus towards my goal and avoid destractions.<br/></p></div>
-     <div id="tag2">COUNTER STRIKE</div>
-	 
-	 <div id="fitness"><p>The only interest,reason of which I dont know.<br/>Greatly inspired by 'Michael Vazquez'<br/>fitness is my 2<sub>nd</sub> priority after Academics.<br/>Diet conscious....can happiely leave any tasty or junk food <br/>that is harmful for me,<br/>just to maintain my PHYSICAL FITNESS </p></div>
-     <div id="tag3">PHYSICAL FITNESS</div>
-	 
-	 <div id="web"><p>Most recent interest developed......<br/>This may be because I am always hungry of<br/> learning something new and interesting.<br/>Love to struggle while learning,<br/>and i experienced the same<br/>at the beginning stage of WEB DEVELOPMENT.</p></div>
-	 <div id="tag4">WEB DEVELOPMENT</div>
-	 
-	 <div id="rubic"><p>At the mid of Spring end sem,<br/>a new craze has developed inside me...<br/>SOLVING RUBIC'S CUBE<br/>as fast as possible<br/>Learnt basic method in 3 days <br/>with my best 2:15 min,<br/>now learning to solve as fast as possible via different methods. </p></div>
-     <div id="tag5">RUBIC'S CUBE</div>
-	 
-     <div id="home"><a href="index.html">HOME</a></div>
+	<div id="football" class="style"><p class="style">I started playing FOOTBALL in my 9<sup>th</sup> standard <br/>Within no time I realized that I started loving it <br/>Even my identity among my batchmates was<br/> more because of FOOTBALL than anything else....<br/>"FOOTBALL is my passion,RONALDO is my motivation"<br/><br/><span>FOOTBALL</span></p></div>
+	<div id="cs" class="style"><p>Frankly speaking,COUNTER STRIKE is my drug.<br/>I am playing this game<br/> when i was in 7<sup>th</sup> standard<br/> and i still play it whenever <br/>i feel something is destracting me,<br/>to refocus towards my goal and avoid destractions.<br/><br/><span>COUNTER STRIKE</span>.</p></div> 
+	<div id="fitness" class="style"><p>The only interest,reason of which I dont know.<br/>Greatly inspired by 'Michael Vazquez'<br/>fitness is my 2<sub>nd</sub> priority after Academics.<br/>Diet conscious....can happiely leave any tasty or junk food <br/>that is harmful for me,<br/>just to maintain my PHYSICAL FITNESS<br/><br/><span>FITNESS</span></p></div>
+	<div id="web" class="style"><p>Most recent interest developed......<br/>This may be because I am always hungry of<br/> learning something new and interesting.<br/>Love to struggle while learning,<br/>and i experienced the same<br/>at the beginning stage of WEB DEVELOPMENT.<br/><br/><span>WEB DEVELOPMENT</span></p></div>
+     <div id="rubic" class="style"><p>At the mid of Spring end sem,<br/>a new craze has developed inside me...<br/>SOLVING RUBIC'S CUBE<br/>as fast as possible<br/>Learnt basic method in 3 days <br/>with my best 2:15 min,<br/>now learning to solve as fast as possible via different methods.<br/><br/><span>RUBIC'S CUBE</span> </p></div>
+	 <div id="home"><a href="index.html">HOME</a></div>
      <div id="academic"><a href="academic.html">ACADEMICS</a></div>
      <div id="interest"><a href="interest.html">INTERESTS</a></div>
      <div id="contact"><a href="contact.html">CONTACTS</a></div>
